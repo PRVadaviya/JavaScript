@@ -1,4 +1,5 @@
 const home =
+
 {
      fullName : "vadaviya pratik" ,
      appartmentNo : 603 ,

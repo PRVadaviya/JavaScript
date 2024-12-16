@@ -32,7 +32,6 @@ const dOB = 14 ;
 console.log(dOB);
 */
 
-
 /*
 let home ;
 

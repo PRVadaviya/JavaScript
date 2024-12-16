@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <button id="orange">Orange</button>
+     <button id="green">Green</button>
+
+<script>
+
+function clickHandler(color){
+
+     //document.body.style.backgroundColor = `${color}`       //fix the green color
+
+     return function(){
+          document.body.style.backgroundColor = `${color}`
+     }
+}
+
+document.getElementById('orange').onclick = clickHandler("orange")
+document.getElementById('green').onclick = clickHandler("green")
+// function comes with lexical scope of outter function when return inner function
+
+/*
+
+     function makeFunc(){
+          const name = "Mozilla"
+
+          function displayName(){
+               console.log(name)
+          }
+          return displayName       //it return with name(mozilla)
+     }
+
+     const myFunc = makeFunc()          // reference comes with outter attribute access
+     
+
+*/
+</script>
+
+</body>
+</html>

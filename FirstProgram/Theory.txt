@@ -1,0 +1,4 @@
+1) ECMAScript  VS  JavaScript
+--> ECMAScript is Specification and otherside js is programming language .
+
+-->Js is a like behavior , what should be happen .
